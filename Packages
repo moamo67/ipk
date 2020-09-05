@@ -1,67 +1,11 @@
-Package: partx-utils
-Version: 2.35.1-2
-Depends: libc, libblkid1, libsmartcols1
-License: GPL-2.0
-Section: utils
-CPE-ID: cpe:/a:kernel:util-linux
+Package: cypress-firmware-43455-sdio
+Version: v5.4.18-2020_0402-2
+Depends: libc
+Provides: brcmfmac-firmware-43455-sdio
+Section: firmware
 Architecture: aarch64_cortex-a72
-Installed-Size: 48122
-Filename: partx-utils_2.35.1-2_aarch64_cortex-a72.ipk
-Size: 48979
-SHA256sum: ce1932af90eedc28e8590e8c3c3b42edf1cc7b74c60e2df0f1b27461542e6cde
-Description:  contains partx, addpart, delpart
-
-Package: mkf2fs
-Version: 1.13.0-1
-Depends: libc, libf2fs6
-Conflicts: mkf2fs-selinux
-License: GPL-2.0
-Section: utils
-Architecture: aarch64_cortex-a72
-Installed-Size: 13895
-Filename: mkf2fs_1.13.0-1_aarch64_cortex-a72.ipk
-Size: 14609
-SHA256sum: a8ab9f77146028217fa2d2781aae47a78aa20b9eedd9f92fdf6fa9aeae0b3437
-Description:  Utility for creating a Flash-Friendly File System (F2FS)
-
-Package: e2fsprogs
-Version: 1.45.6-1
-Depends: libc, libuuid1, libext2fs2
-License: GPL-2.0
-Section: utils
-CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
-Architecture: aarch64_cortex-a72
-Installed-Size: 187110
-Filename: e2fsprogs_1.45.6-1_aarch64_cortex-a72.ipk
-Size: 187871
-SHA256sum: 71a64b77cb260a9af81b61463db56814a3d6fd359b07626c704b836340b0ac53
-Description:  This package contains essential ext2 filesystem utilities which consists of
- e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
- 
- Package: libf2fs6
-Version: 1.13.0-1
-Depends: libc, libuuid1
-Conflicts: libf2fs-selinux
-Provides: libf2fs
-License: GPL-2.0
-Section: libs
-Architecture: aarch64_cortex-a72
-Installed-Size: 39068
-Filename: libf2fs6_1.13.0-1_aarch64_cortex-a72.ipk
-Size: 39703
-SHA256sum: a29108d0b015f4f6c4382e19b3309203e9db17502f9a5ee1b34653a92fd21cbf
-Description:  Library for Flash-Friendly File System (F2FS) tools
-
-Package: libext2fs2
-Version: 1.45.6-1
-Depends: libc, libuuid1, libblkid1, libss2, libcomerr0
-Provides: libext2fs
-License: GPL-2.0
-Section: libs
-CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
-Architecture: aarch64_cortex-a72
-Installed-Size: 181414
-Filename: libext2fs2_1.45.6-1_aarch64_cortex-a72.ipk
-Size: 181933
-SHA256sum: 02b8c32c9fa03d03daf4140bed00a46275aaba5621d34d7cbd92c6fcce1c8a5d
-Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+Installed-Size: 428212
+Filename: cypress-firmware-43455-sdio_v5.4.18-2020_0402-2_aarch64_cortex-a72.ipk
+Size: 429107
+SHA256sum: 78f6c7b2794c077f2f5980be0b3eee8ae94353da287581984245d640303e3afc
+Description:  CYW43455 FullMac SDIO firmware
