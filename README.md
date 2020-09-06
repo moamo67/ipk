@@ -10,5 +10,7 @@ samba4 lib
 partx utils
 mk2fs
 e2fsprogs
+cypress fw
+...
 
 all missing for working openwrt on rpi4
