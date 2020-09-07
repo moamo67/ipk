@@ -15,3 +15,4 @@ cypress fw
 
 all missing for working openwrt on rpi4
 by me for me moamo67
+patched , n uuid add 
