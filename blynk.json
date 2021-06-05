@@ -1,0 +1,11 @@
+{
+  "type": 1,
+  "title": "blynk",
+  "description": "blynk sur hassos",
+  "logo": "https://cloudinovasi.id/assets/img/logos/nginx.png",
+  "image": "linuxkonsult/rasbian-blynk",
+  "ports": [
+    "8080:8080/tcp",
+    "9443:9443/tcp"
+  ]
+}
